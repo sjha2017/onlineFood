@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tasty Food</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body class="bodyHomePage">
+    <header>
+        <div class="col-md-12" id="grad">
+            <div class="col-md-4">
+                <img src="Logo.png" class="img-circle" alt="Cinque Terre" width="120" height="80">
+            </div>
+            <div class="col-md-4"><h1>TASTY FOOD</h1></div>
+            <div class="col-md-4 dropdown">
+                <button class="btn btn-warning dropdown-toggle pull-right" type="button" data-toggle="dropdown">
+                    Language
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">Hindi</a></li>
+                    <li><a href="#">German</a></li>
+                    <li><a href="#">Chinese</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="col-md-12 menu" >
+        <ul class="nav nav-tabs nav-justified">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </div>
+    <div class="col-md-4 container-fluid" style="background-color: rgba(128, 41, 0, 0.93)">
+        <div class="panel-group" id="menu" style="background-color: #805E00">
+            <div class="panel panel-default" style="background-color: rgba(255, 230, 102, 0.73)">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#menu" href="#menu1">MENU</a>
+                    </h4>
+                </div>
+                <div id="menu1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <ul class="nav nav-pills nav-stacked"><li>
+                            <div class="dropdown">
+                            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" id="button">Veg
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu nav nav-pills nav-stacked">
+                                <li><a href="veg_Soupssalads.html">Soups & Salads</a></li>
+                                <li><a href="veg_starters.html">Starters</a></li>
+                                <li><a href="veg_maincourse.html">Main Course</a></li>
+                                <li><a href="roti.html">Indian Bread</a></li>
+                                <li><a href="veg_rice.html">Rice & Noodles</a></li>
+                            </ul>
+                        </div>
+                        </li>
+                        <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" id="button">Non - Veg
+                            <span class="caret"></span></button>
+                            <ul class="dropdown-menu nav nav-pills nav-stacked">
+                                <li><a href="#">Soups & Salads</a></li>
+                                <li><a href="#">Starters</a></li>
+                                <li><a href="#">Main Course</a></li>
+                                <li><a href="#">Indian Bread</a></li>
+                                <li><a href="#">Rice & Noodles</a></li>
+                            </ul>        
+                        </div></li>
+                        <li>
+                        <div class="dropdown">
+                            <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown" id="button">Desserts and Beverages
+                                <span class="caret"></span></button>
+                                <ul class="dropdown-menu nav nav-pills nav-stacked">
+                                    <li><a href="#">Coffee</a></li>
+                                    <li><a href="#">Ice Cream</a></li>
+                                    <li><a href="#">Yoghurt</a></li>
+                                    <li><a href="#">Halwa</a></li>
+                                    <li><a href="#">Juice</a></li>
+                                </ul>
+                        </div>
+                    </li>    
+                </div></ul>
+                </div>
+            </div>
+            <div class="panel panel-default" style="background-color: rgba(255, 230, 102, 0.73)">
+                <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#menu" href="#menu2">Dine out</a>
+                </h4>
+            </div>
+            <div id="menu2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <button type="button" class="btn btn-primary btn-block" id="button">Book a table</button>
+                    <button type="button" class="btn btn-primary btn-block" id="button">Drinks & Nightlife</button>
+                    <button type="button" class="btn btn-primary btn-block" id="button">Cafes</button>
+                    <button type="button" class="btn btn-primary btn-block" id="button">Bars</button>
+                    <button type="button" class="btn btn-primary btn-block" id="button">Pubs</button>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default" style="background-color: rgba(255, 230, 102, 0.73)">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#menu" href="#menu3">Location</a>
+                    </h4>
+                </div>
+                <div id="menu3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <button type="button" class="btn btn-primary btn-block" id="button">Pune</button>
+                        <button type="button" class="btn btn-primary btn-block" id="button">Mumbai</button>
+                        <button type="button" class="btn btn-primary btn-block" id="button">Delhi</button>
+                        <button type="button" class="btn btn-primary btn-block" id="button">Kolkata</button>
+                        <button type="button" class="btn btn-primary btn-block" id="button">Ahemdabad</button>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <div class=" col-md-8 container-fluid">
+            <div class="col-md-6 container">
+                    <div class="table-responsive">
+                        <table class="table table-hover" style="background-color:white">
+                            <thead>
+                                <tr>
+                                    <th>Jeera Rice</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="https://pull-revisfoodography.netdna-ssl.com/wp-content/uploads/2017/03/jeera-rice-1.jpg" class="img-thumbnail" alt="Cinque Terre"></td>
+                                    <td>
+                                        <span class="fa fa-inr"></span>179.00
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-heart-empty"></span>Add to fav
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-thumbs-up"></span>Like
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>Add to cart
+                                        <br/> <br/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6 container">
+                    <div class="table-responsive">
+                        <table class="table table-hover" style="background-color:white">
+                            <thead>
+                                <tr>
+                                    <th>Veg Biryani</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="http://www.flavorquotient.com/wp-content/uploads/2016/10/Vegetable-Biryani-FQ-2-1-of-1.jpg" class="img-thumbnail" alt="Cinque Terre"></td>
+                                    <td>
+                                        <span class="fa fa-inr"></span>210.00
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-heart-empty"></span>Add to fav
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-thumbs-up"></span>Like
+                                        <br/> <br/>
+                                        <span class="glyphicon glyphicon-shopping-cart"></span>Add to cart
+                                        <br/> <br/>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>      
+            </div>
+            <div class="col-md-8 container-fluid">
+                    <div class="col-md-6 container">
+                        <div class="table-responsive">
+                            <table class="table table-hover" style="background-color:white">
+                                <thead>
+                                    <tr>
+                                        <th>Veg Hakka Noodles</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="https://i1.wp.com/vegecravings.com/wp-content/uploads/2017/03/veg-hakka-noodles-recipe-with-step-by-step-instructions.jpg?fit=750%2C609" class="img-thumbnail" alt="Cinque Terre"></td>
+                                        <td>
+                                            <span class="fa fa-inr"></span>350.00
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-heart-empty"></span>Add to fav
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-thumbs-up"></span>Like
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-shopping-cart"></span>Add to cart
+                                            <br/> <br/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-6 container">
+                        <div class="table-responsive">
+                            <table class="table table-hover" style="background-color:white">
+                                <thead>
+                                    <tr>
+                                        <th>Veg Schezwan Rice</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="https://i.ytimg.com/vi/OUhyJPJlfS8/maxresdefault.jpg" class="img-thumbnail" alt="Cinque Terre"></td>
+                                        <td>
+                                            <span class="fa fa-inr"></span>449.00
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-heart-empty"></span>Add to fav
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-thumbs-up"></span>Like
+                                            <br/> <br/>
+                                            <span class="glyphicon glyphicon-shopping-cart"></span>Add to cart
+                                            <br/> <br/>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>         
+    </div>
+
+    <footer id="footer">
+            <div class="col-md-12 text-center" style="padding-bottom: 20px; padding-top: 20px" id="grad">
+                Copyright &copy; TastyFood 2017
+        </div>
+    </footer>
+        
+</body>
+</html>
